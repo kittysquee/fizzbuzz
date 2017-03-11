@@ -13,4 +13,7 @@ describe 'fizzbuzz2' do
   it 'returns "7" for the number 7' do
     expect(7.fizzbuzz2).to eq 7
   end
+  it 'returns "0" for the number 0' do
+    expect(0.fizzbuzz2).to eq 0
+  end 
 end
